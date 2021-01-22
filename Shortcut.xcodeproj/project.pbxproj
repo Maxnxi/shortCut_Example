@@ -13,6 +13,9 @@
 		055028C225B9BCE300526DF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055028C025B9BCE300526DF4 /* Main.storyboard */; };
 		055028C425B9BCE600526DF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055028C325B9BCE600526DF4 /* Assets.xcassets */; };
 		055028C725B9BCE600526DF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 055028C525B9BCE600526DF4 /* LaunchScreen.storyboard */; };
+		055028D125B9C29F00526DF4 /* SpaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055028D025B9C29F00526DF4 /* SpaceVC.swift */; };
+		055028D425B9C2AB00526DF4 /* OceanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055028D325B9C2AB00526DF4 /* OceanVC.swift */; };
+		055028D725B9C2F300526DF4 /* MountainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055028D625B9C2F300526DF4 /* MountainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		055028C325B9BCE600526DF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055028C625B9BCE600526DF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		055028C825B9BCE600526DF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		055028D025B9C29F00526DF4 /* SpaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceVC.swift; sourceTree = "<group>"; };
+		055028D325B9C2AB00526DF4 /* OceanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OceanVC.swift; sourceTree = "<group>"; };
+		055028D625B9C2F300526DF4 /* MountainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		055028B925B9BCE300526DF4 /* Shortcut */ = {
 			isa = PBXGroup;
 			children = (
+				055028D925B9C33500526DF4 /* Controller */,
 				055028BA25B9BCE300526DF4 /* AppDelegate.swift */,
 				055028BC25B9BCE300526DF4 /* SceneDelegate.swift */,
-				055028BE25B9BCE300526DF4 /* ViewController.swift */,
 				055028C025B9BCE300526DF4 /* Main.storyboard */,
 				055028C325B9BCE600526DF4 /* Assets.xcassets */,
 				055028C525B9BCE600526DF4 /* LaunchScreen.storyboard */,
 				055028C825B9BCE600526DF4 /* Info.plist */,
 			);
 			path = Shortcut;
+			sourceTree = "<group>";
+		};
+		055028D925B9C33500526DF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				055028D025B9C29F00526DF4 /* SpaceVC.swift */,
+				055028D325B9C2AB00526DF4 /* OceanVC.swift */,
+				055028D625B9C2F300526DF4 /* MountainVC.swift */,
+				055028BE25B9BCE300526DF4 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +155,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				055028BF25B9BCE300526DF4 /* ViewController.swift in Sources */,
+				055028D125B9C29F00526DF4 /* SpaceVC.swift in Sources */,
 				055028BB25B9BCE300526DF4 /* AppDelegate.swift in Sources */,
+				055028D725B9C2F300526DF4 /* MountainVC.swift in Sources */,
+				055028D425B9C2AB00526DF4 /* OceanVC.swift in Sources */,
 				055028BD25B9BCE300526DF4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

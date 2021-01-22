@@ -52,8 +52,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -61,6 +59,46 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<array/>
+	</array>
+	<key>UIApplicationShortcutItems</key>
+	<array>
+		<dict>
+			<key>UIApplicationShortcutItemType</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER).mountain</string>
+			<key>UIApplicationShortcutItemIconType</key>
+			<string>UIApplicationShortcutIconTypeLove</string>
+			<key>UIApplicationShortcutItemTitle</key>
+			<string>Mountain</string>
+			<key>UIApplicationShortcutItemSubtitle</key>
+			<string>So majestic</string>
+			<key>UIApplicationShortcutItemIconFile</key>
+			<string>MountainShort</string>
+		</dict>
+        <dict>
+            <key>UIApplicationShortcutItemType</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER).space</string>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeLove</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Space</string>
+            <key>UIApplicationShortcutItemSubtitle</key>
+            <string>So majestic</string>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string>SpaceShort</string>
+        </dict>
+        <dict>
+            <key>UIApplicationShortcutItemType</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER).ocean</string>
+            <key>UIApplicationShortcutItemIconType</key>
+            <string>UIApplicationShortcutIconTypeLove</string>
+            <key>UIApplicationShortcutItemTitle</key>
+            <string>Ocean</string>
+            <key>UIApplicationShortcutItemSubtitle</key>
+            <string>So majestic</string>
+            <key>UIApplicationShortcutItemIconFile</key>
+            <string>OceanShort</string>
+        </dict>
 	</array>
 </dict>
 </plist>
