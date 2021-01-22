@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MountainVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="mountainVC" id="BYZ-38-t0r" customClass="ViewController" customModule="Shortcut" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mountainVC" id="BYZ-38-t0r" customClass="MountainVC" customModule="Shortcut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -37,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="1064.6153846153845" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--SpaceVC-->
         <scene sceneID="oMC-cW-JPG">
             <objects>
-                <viewController storyboardIdentifier="spaceVC" id="XmC-QQ-aJV" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="spaceVC" id="XmC-QQ-aJV" customClass="SpaceVC" customModule="Shortcut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vcN-On-0SH">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="1960" y="93.838862559241704"/>
         </scene>
-        <!--View Controller-->
+        <!--OceanVC-->
         <scene sceneID="GDa-rZ-9Bs">
             <objects>
-                <viewController storyboardIdentifier="oceanVC" id="YRr-q5-KlI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="oceanVC" id="YRr-q5-KlI" customClass="OceanVC" customModule="Shortcut" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S93-dm-7Qd">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
